@@ -1,0 +1,73 @@
+nav{
+    background-color: #323436;
+    display:flex;
+    justify-content: space-between;
+}
+
+.sayHelloWrapper{
+   /*  border: 3px solid green; */
+
+}
+
+.sayHelloDiv{
+    /* border: 2px solid red; */
+    height:500px;
+    background-color: #282c34;
+    display:flex;
+    align-items: flex-end;
+  
+
+}
+
+.infoDiv{
+  /*   border: .3px solid red; */
+    width: 50%;
+    margin: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.infoDiv > h1{
+    font-size: 3rem;
+    color: #FFFF;
+}
+.infoDiv > p{
+    color: #FFFF;
+}
+
+.infoDiv > button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: .3px solid white;
+    font-weight: bolder;
+}
+
+.options{
+    display:flex;
+    justify-items: space-around;
+ /*    border: 1px solid green; */
+}
+
+.icon{
+  /* 
+    border: 1px solid red; */
+}
+
+.icon > p{
+    padding-right: 5px;
+}
+/* .icon > img {
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+} */
+
+.imgIcon{
+    display:flex;
+    justify-content: center;
+    /* border: 2px solid purple; */
+
+}
